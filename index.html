@@ -2,194 +2,77 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Нервная система и женский ритм — 8-недельное сопровождение</title>
-  <meta name="description" content="8-недельное сопровождение для женщин 20–45 лет: тревожность, сон, упадок сил, ПМС, цикл, ЖКТ — системно через тело и психику." />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Нервная система и женский ритм</title>
   <style>
-    :root{
-      --bg:#0b0c10;
-      --card:#111319;
-      --text:#f4f5f7;
-      --muted:#b7bcc7;
-      --line:#232634;
-      --accent:#7dd3fc;
-      --accent2:#a78bfa;
-      --btn:#f4f5f7;
-      --btnText:#0b0c10;
-      --max: 980px;
-      --radius: 18px;
-    }
-    *{box-sizing:border-box}
-    body{
-      margin:0;
-      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
-      background: radial-gradient(1200px 600px at 10% 0%, rgba(167,139,250,.18), transparent 60%),
-                  radial-gradient(900px 500px at 90% 10%, rgba(125,211,252,.14), transparent 60%),
-                  var(--bg);
-      color:var(--text);
-      line-height:1.5;
-    }
-    a{color:inherit}
-    .wrap{max-width:var(--max); margin:0 auto; padding:28px 18px 80px;}
-    header{
-      position:sticky; top:0; backdrop-filter:saturate(120%) blur(10px);
-      background: rgba(11,12,16,.65); border-bottom:1px solid rgba(35,38,52,.7);
-      z-index:10;
-    }
-    .nav{max-width:var(--max); margin:0 auto; padding:14px 18px; display:flex; gap:14px; align-items:center; justify-content:space-between;}
-    .brand{font-weight:650; letter-spacing:.2px;}
-    .nav a{color:var(--muted); text-decoration:none; font-size:14px; margin-left:12px}
-    .nav a:hover{color:var(--text)}
-    .btn{
-      display:inline-block; padding:12px 16px; border-radius:14px;
-      background:linear-gradient(90deg, var(--accent), var(--accent2));
-      color:#0b0c10; font-weight:650; text-decoration:none;
-      box-shadow: 0 10px 25px rgba(0,0,0,.35);
-    }
-    .btn.secondary{
-      background: transparent; color: var(--text); border:1px solid var(--line);
-      box-shadow:none;
-    }
-    .hero{padding:44px 0 10px;}
-    .pill{
-      display:inline-flex; gap:8px; align-items:center;
-      border:1px solid rgba(35,38,52,.9);
-      padding:8px 12px; border-radius:999px; color:var(--muted); font-size:14px;
-      background: rgba(17,19,25,.6);
-    }
-    h1{font-size:44px; line-height:1.08; margin:14px 0 12px;}
-    .sub{font-size:18px; color:var(--muted); max-width:820px;}
-    .ctaRow{display:flex; flex-wrap:wrap; gap:12px; margin-top:18px;}
-    .grid{
-      display:grid; grid-template-columns: 1fr; gap:14px; margin-top:22px;
-    }
-    @media(min-width:820px){
-      .grid{grid-template-columns: 1fr 1fr;}
-      h1{font-size:52px;}
-    }
-    section{margin-top:28px;}
-    .card{
-      background: rgba(17,19,25,.78);
-      border:1px solid rgba(35,38,52,.9);
-      border-radius: var(--radius);
-      padding:18px 18px;
-    }
-    h2{font-size:22px; margin:0 0 10px;}
-    ul{margin:10px 0 0 18px; color:var(--text)}
-    li{margin:6px 0; color:var(--text)}
-    .muted{color:var(--muted)}
-    .kpi{
-      display:flex; flex-wrap:wrap; gap:10px; margin-top:12px;
-    }
-    .kpi div{
-      padding:10px 12px; border-radius:14px; border:1px solid rgba(35,38,52,.9);
-      background: rgba(17,19,25,.55); color:var(--muted); font-size:14px;
-    }
-    .price{
-      display:flex; flex-wrap:wrap; gap:12px; align-items:flex-end; justify-content:space-between;
-    }
-    .price strong{font-size:34px; letter-spacing:.2px}
-    .strike{color:var(--muted); text-decoration:line-through; margin-left:8px; font-size:16px}
-    .faq details{border-top:1px solid rgba(35,38,52,.9); padding:12px 0;}
-    .faq details:first-child{border-top:none}
-    .faq summary{cursor:pointer; font-weight:600}
-    footer{margin-top:30px; color:var(--muted); font-size:13px}
-    .anchor{scroll-margin-top:84px;}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:#fafafa;color:#111;line-height:1.6}
+    .wrap{max-width:860px;margin:0 auto;padding:28px 18px 70px}
+    .card{background:#fff;border:1px solid #e6e6e6;border-radius:16px;padding:18px 18px;margin:14px 0}
+    h1{line-height:1.1;margin:10px 0 6px;font-size:40px}
+    h2{margin:0 0 10px;font-size:22px}
+    .muted{color:#555}
+    .pill{display:inline-block;border:1px solid #e6e6e6;border-radius:999px;padding:6px 10px;font-size:14px;color:#555;background:#fff}
+    .btn{display:inline-block;margin-top:12px;background:#111;color:#fff;text-decoration:none;padding:12px 16px;border-radius:12px;font-weight:650}
+    ul{margin:10px 0 0 18px}
+    li{margin:6px 0}
+    .nav{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px}
+    .nav a{color:#111;text-decoration:none;border-bottom:1px dashed #bbb}
+    .price{font-size:26px;font-weight:750}
+    .strike{color:#777;text-decoration:line-through;font-weight:500;font-size:16px;margin-left:8px}
   </style>
 </head>
 <body>
-
-<header>
-  <div class="nav">
-    <div class="brand">Нервная система и женский ритм</div>
-    <div>
-      <a href="#about">О формате</a>
-      <a href="#program">Что входит</a>
-      <a href="#price">Стоимость</a>
-      <a href="#faq">FAQ</a>
-      <a class="btn secondary" href="https://t.me/nastyasorig" target="_blank" rel="noopener">Написать в Telegram</a>
-    </div>
-  </div>
-</header>
-
-<div class="wrap">
-  <div class="hero">
+  <div class="wrap">
     <div class="pill">8 недель · комплексное сопровождение · 8 мест</div>
     <h1>Нервная система и женский ритм</h1>
-    <p class="sub">
-      Для женщин 20–45 лет с тревожностью, нарушениями сна, упадком сил, выраженным ПМС,
-      сбоями цикла на фоне стресса и чувствительным пищеварением.
+    <p class="muted">
+      Для женщин 20–45 лет с тревожностью, нарушениями сна, упадком сил, выраженным ПМС, сбоями цикла на фоне стресса и чувствительным пищеварением.
       Цель — восстановить ритм и устойчивость, а не «подавить симптом».
     </p>
-    <div class="ctaRow">
-      <a class="btn" href="https://t.me/nastyasorig" target="_blank" rel="noopener">Записаться в сопровождение</a>
-      <a class="btn secondary" href="#program">Смотреть, что входит</a>
-    </div>
-    <div class="kpi">
-      <div>Мягко и постепенно</div>
-      <div>Тело + психика</div>
-      <div>Без обещаний «за неделю»</div>
-      <div>Оплата по частям</div>
-    </div>
-  </div>
 
-  <section id="about" class="anchor">
-    <div class="grid">
-      <div class="card">
-        <h2>Почему так происходит</h2>
-        <p class="muted">
-          Часто симптомы кажутся разрозненными. Но в основе нередко — перегруженная нервная система
-          и утраченный ритм восстановления. Когда нервная система не успевает регулироваться,
-          тело начинает «говорить» через цикл, сон, ЖКТ и хроническую усталость.
-        </p>
-      </div>
-      <div class="card">
-        <h2>Кому подойдёт</h2>
-        <ul>
-          <li>тревожность уже отражается на теле</li>
-          <li>сон поверхностный или прерывистый</li>
-          <li>упадок сил, ощущение истощения</li>
-          <li>выраженный ПМС</li>
-          <li>цикл сбивается на фоне стресса</li>
-          <li>чувствительность пищеварения</li>
-        </ul>
-      </div>
-    </div>
-  </section>
+    <a class="btn" href="https://t.me/nastyasorig" target="_blank" rel="noopener">Записаться в Telegram</a>
 
-  <section id="program" class="anchor">
-    <div class="grid">
-      <div class="card">
-        <h2>Что входит</h2>
-        <ul>
-          <li>2 консультации по тибетской медицине</li>
-          <li>индивидуальный план питания и образа жизни</li>
-          <li>травяная поддержка на 2 месяца</li>
-          <li>4 психологические сессии (процессуальный подход)</li>
-          <li>сопровождение в процессе</li>
-        </ul>
-        <p class="muted" style="margin-top:10px;">
-          Работа выстроена постепенно, с вниманием к возможностям организма и психики.
-          Без обещаний «быстрого решения», но с опорой на реальные изменения.
-        </p>
-      </div>
-      <div class="card">
-        <h2>Обо мне</h2>
-        <p class="muted">
-          Я соединяю тибетскую медицину и процессуальную психологию, потому что вижу,
-          как тесно переплетены тело и внутренние процессы. За 5 лет обучения тибетской медицине
-          и 2 года подготовки в психологии я всё больше убеждаюсь: мягкая системная работа даёт
-          более устойчивые изменения, чем резкие вмешательства.
-        </p>
-        <p class="muted">
-          Мне важно выстраивать долгосрочную, системную модель помощи — поэтому формат именно сопровождения,
-          а не разовых консультаций.
-        </p>
-      </div>
+    <div class="card">
+      <h2>Почему так происходит</h2>
+      <p class="muted">
+        Часто симптомы кажутся разрозненными. Но в основе нередко — перегруженная нервная система и утраченный ритм восстановления.
+        Когда нервная система не успевает регулироваться, тело начинает «говорить» через цикл, сон, ЖКТ и хроническую усталость.
+      </p>
     </div>
-  </section>
 
-  <section class="anchor">
+    <div class="card">
+      <h2>Кому подойдёт</h2>
+      <ul>
+        <li>тревожность уже отражается на теле</li>
+        <li>сон поверхностный или прерывистый</li>
+        <li>упадок сил, ощущение истощения</li>
+        <li>выраженный ПМС</li>
+        <li>цикл сбивается на фоне стресса</li>
+        <li>чувствительность пищеварения</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Что входит</h2>
+      <ul>
+        <li>2 консультации по тибетской медицине</li>
+        <li>индивидуальный план питания и образа жизни</li>
+        <li>травяная поддержка на 2 месяца</li>
+        <li>4 психологические сессии (процессуальный подход)</li>
+        <li>сопровождение в процессе</li>
+      </ul>
+      <p class="muted">Работа выстроена постепенно, с вниманием к возможностям организма и психики. Без обещаний «быстрого решения», но с опорой на реальные изменения.</p>
+    </div>
+
+    <div class="card">
+      <h2>Обо мне</h2>
+      <p class="muted">
+        Я соединяю тибетскую медицину и процессуальную психологию, потому что вижу, как тесно переплетены тело и внутренние процессы.
+        За 5 лет обучения тибетской медицине и 2 года подготовки в психологии я всё больше убеждаюсь: мягкая системная работа даёт более устойчивые изменения, чем резкие вмешательства.
+      </p>
+      <p class="muted">Мне важно выстраивать долгосрочную, системную модель помощи — поэтому формат именно сопровождения, а не разовых консультаций.</p>
+    </div>
+
     <div class="card">
       <h2>Кому формат не подойдёт</h2>
       <ul>
@@ -197,68 +80,19 @@
         <li>при острых состояниях</li>
         <li>если ожидается быстрый результат без личной вовлечённости</li>
       </ul>
-      <p class="muted" style="margin-top:10px;">
-        Если вы сомневаетесь, напишите — я помогу понять, подходит ли вам формат.
-      </p>
     </div>
-  </section>
 
-  <section id="price" class="anchor">
     <div class="card">
-      <div class="price">
-        <div>
-          <h2 style="margin-bottom:6px;">Стоимость</h2>
-          <div><strong>22 000 ₽</strong> <span class="strike">35 000 ₽</span></div>
-          <div class="muted" style="margin-top:6px;">Возможна оплата по частям · мест: 8</div>
-        </div>
-        <div>
-          <a class="btn" href="https://t.me/nastyasorig" target="_blank" rel="noopener">Написать в Telegram</a>
-          <div class="muted" style="margin-top:8px; font-size:13px;">
-            Можно начать сообщение так: «Хочу на сопровождение. Мои симптомы: …»
-          </div>
-        </div>
-      </div>
+      <h2>Стоимость</h2>
+      <div class="price">22 000 ₽ <span class="strike">35 000 ₽</span></div>
+      <p class="muted">Возможна оплата по частям · мест: 8</p>
+      <a class="btn" href="https://t.me/nastyasorig" target="_blank" rel="noopener">Написать в Telegram</a>
+      <p class="muted" style="font-size:14px;margin-top:10px;">Можно начать сообщение так: «Хочу на сопровождение. Мои симптомы: …»</p>
     </div>
-  </section>
 
-  <section id="faq" class="anchor">
-    <div class="card faq">
-      <h2>FAQ</h2>
-      <details>
-        <summary>Это лечение или поддержка?</summary>
-        <div class="muted" style="margin-top:8px;">
-          Это сопровождение, направленное на восстановление ритма и устойчивости. Не заменяет очную медицинскую помощь при острых состояниях.
-        </div>
-      </details>
-      <details>
-        <summary>Если у меня есть диагноз, можно ли участвовать?</summary>
-        <div class="muted" style="margin-top:8px;">
-          При тяжёлых диагнозах формат может не подойти. Лучше написать мне — разберёмся индивидуально.
-        </div>
-      </details>
-      <details>
-        <summary>Сколько времени это занимает?</summary>
-        <div class="muted" style="margin-top:8px;">
-          Встречи по расписанию, плюс небольшие шаги между ними. Мы подстраиваем темп под ваши возможности.
-        </div>
-      </details>
-      <details>
-        <summary>Можно оплатить частями?</summary>
-        <div class="muted" style="margin-top:8px;">
-          Да, возможна оплата по частям — обсудим в личных сообщениях.
-        </div>
-      </details>
-    </div>
-  </section>
-
-  <footer>
-    <div>Контакт: Telegram <a href="https://t.me/nastyasorig" target="_blank" rel="noopener">@nastyasorig</a></div>
-    <div style="margin-top:8px;">
-      Дисклеймер: информация на странице не является медицинской рекомендацией и не заменяет очную консультацию врача.
-      При острых состояниях важно обратиться за неотложной помощью.
-    </div>
-  </footer>
-</div>
-
+    <p class="muted" style="font-size:13px;">
+      Дисклеймер: информация на странице не является медицинской рекомендацией и не заменяет очную консультацию врача. При острых состояниях важно обратиться за неотложной помощью.
+    </p>
+  </div>
 </body>
 </html>
