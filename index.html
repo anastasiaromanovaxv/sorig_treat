@@ -254,8 +254,11 @@
     position: static;
   }
   .top-actions{
-    position: static;
-  }
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-self: end;   /* 👈 это уводит кнопку к правому краю */
+}
   .topbar-inner{
     justify-content: space-between;
   }
